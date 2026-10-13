@@ -14,7 +14,7 @@ Render offers free hosting for static sites with global CDN and automated SSL ce
 4. Configure the settings:
    - **Name**: `hobby-group-organizer` (or your choice)
    - **Branch**: `main` (or your default branch)
-   - **Build Command**: `npm run build`
+   - **Build Command**: `npm install --legacy-peer-deps && npm run build` (or simply `npm run build`)
    - **Publish Directory**: `dist`
 5. **Configure SPA Rewrite Rule** (Important for client-side navigation):
    - Scroll down to the **Redirects/Rewrites** section.
@@ -29,14 +29,14 @@ Render offers free hosting for static sites with global CDN and automated SSL ce
 
 ## Method 2: Deploy as a Node.js Web Service (Full-Stack)
 
-If you prefer running the bundled Express production server (`server.ts` / `server.js`):
+If you prefer running the bundled Express production server (`server.js`):
 
 1. Go to your [Render Dashboard](https://dashboard.render.com/) and click **New +** → **Web Service**.
 2. Connect your Git repository.
 3. Configure the settings:
    - **Name**: `hobby-group-organizer`
    - **Runtime**: `Node`
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm install --legacy-peer-deps && npm run build`
    - **Start Command**: `npm start`
    - **Instance Type**: `Free`
 4. Add the following **Environment Variables**:
