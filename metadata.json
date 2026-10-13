@@ -1,0 +1,6 @@
+{
+  "name": "The Hobby Group Organizer",
+  "description": "Helps small communities coordinate meetups, track attendance, split costs, and remind members about upcoming events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

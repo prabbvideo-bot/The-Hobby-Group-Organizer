@@ -1,0 +1,17 @@
+# Render Blueprint configuration for The Hobby Group Organizer
+# https://render.com/docs/blueprint-spec
+
+services:
+  # Web Service (Full Node.js environment with Express server)
+  - type: web
+    name: hobby-group-organizer
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 3000
