@@ -133,9 +133,3 @@ This application was engineered using Google AI Studio Build.
 
 Alex successfully coordinated a test session of *Ark Nova & Dune: Imperium*, tracked 5 RSVPs, split a $45.00 room fee and $38.50 pizza order, and resolved the debt down to 2 simple transfers.
 
----
-
-## Prize Categories
-
-- **Side Hustle**: A complete, monetizable SaaS/tool for community leaders, micro-meetup hosts, and local social clubs looking to replace high-fee subscription services.
-- **Open-Source Productivity Tool**: Practical utility solving attendance coordination, shared expense simplification, and cross-channel event broadcasts in a single, cohesive workflow.
